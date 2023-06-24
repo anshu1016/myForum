@@ -1,0 +1,21 @@
+.left-bar {
+  background-color: #f0f2f5;
+  padding: 20px;
+  width: 280px;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+
+.left-bar-item {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.left-bar-icon {
+  margin-right: 10px;
+}

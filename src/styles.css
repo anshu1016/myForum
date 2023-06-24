@@ -1,0 +1,36 @@
+/* styles.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout styles */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-grow: 1;
+}
+
+.left-sidebar {
+  flex: 0 0 250px;
+  background-color: #f0f2f5;
+}
+
+.feed {
+  flex-grow: 1;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.right-sidebar {
+  flex: 0 0 250px;
+  background-color: #f0f2f5;
+}

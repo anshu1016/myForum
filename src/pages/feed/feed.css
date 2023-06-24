@@ -1,0 +1,81 @@
+.forum {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  border: 1px solid #ccc;
+
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.vote-count.negative {
+  color: red;
+  /* Add any other styling for negative vote count */
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.card-content {
+  margin-bottom: 10px;
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+.tags span {
+  background-color: lightblue;
+  padding: 2px;
+  color: blue;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.card-footer {
+  color: #888;
+  font-size: 14px;
+}
+
+.card-footer span {
+  margin-right: 10px;
+}
+.votes {
+  align-items: center;
+}
+
+.arrow-up,
+.arrow-down {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.vote-count {
+  font-size: 16px;
+  font-weight: bold;
+}
+.arrow {
+  display: flex;
+  flex-direction: column;
+}

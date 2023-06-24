@@ -1,0 +1,22 @@
+.right-bar {
+  background-color: #f0f2f5;
+  color: black;
+  padding: 20px;
+  width: 280px;
+  position: sticky;
+  top: 0;
+}
+
+.right-bar-heading {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.right-bar-select {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+}

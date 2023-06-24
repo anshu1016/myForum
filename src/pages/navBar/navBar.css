@@ -1,0 +1,12 @@
+.navbar {
+  background-color: #001f3f;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.navbar-title {
+  font-size: 24px;
+  margin: 0;
+}
